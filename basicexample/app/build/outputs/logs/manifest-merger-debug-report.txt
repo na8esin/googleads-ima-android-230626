@@ -1,0 +1,381 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/32ce88abb1d847ffd639037b5ee7a807/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8c8dd16aa9120a2b9b968f719121f67a/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:2:1-34:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/t-watanabe/.gradle/caches/transforms-3/96cbc03815d7a18b5f41fb65c145d5ae/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/8b6de390fc4f90a4b07dddbeeaebe4a0/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.5.0] /Users/t-watanabe/.gradle/caches/transforms-3/4c356a9445c74644f58e041739aad49e/transformed/browser-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.6.0] /Users/t-watanabe/.gradle/caches/transforms-3/11691bb055f23b03c84ff576d84e6857/transformed/media-1.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-pal:20.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/a60d4f030f99ac485eba5fa12a3a1392/transformed/jetified-play-services-pal-20.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-appset:16.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/789e88d0b2fc31d6ad6bc4c2d22aa19b/transformed/jetified-play-services-appset-16.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/f04e9a756d614c67f30a13459d6a7877/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/b1d265b20c3014cd242bd8b2870482a9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/1b1d91c66b34ca7e20c2920fa6e80e65/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/bd7b7186f06ea8a2c99f4e8841459bee/transformed/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/t-watanabe/.gradle/caches/transforms-3/c0551e3abe4d8b1c35b397bef5eeae5c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/t-watanabe/.gradle/caches/transforms-3/e4ac8e8036a4f54b9be624261312cae7/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/9af030ca2f235ef2b96b4bb000934271/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/5104a76c9086d4db368c4511d62ccad2/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/feaa3b3e01721703da3adfe035f88877/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/4d5f64200f4df8485d4128b58b7cb962/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/5d456df6fe33ef0e65a2ebdf9fc2b06d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/a279fefa293fae8c3b3c5fed2d0c7f19/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/46b7c35ab6e237dc3c3160d5cc0ee740/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/e45c5fa02180a0a0d2e60ad9e43a634b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/5b718a55d1fd068ede03cddad4ea3861/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.webkit:webkit:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/e8378cf9c11c892aaafff737b5f761c0/transformed/webkit-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/40bdd3350146ccd8ae70ccc172509fee/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/2987f4695064c5f4eef0bb980197dd02/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/43ac619021b427fc523c6a011703dffb/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/a56604325ad9281454c794ee05ab0acf/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/e6c086f9e78080255e016a56b65e33ac/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/f5da7ff9e9a8cfa2466bdaf1128d2c74/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/076bedf7294c4166a7fca4347426d3c5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/9ebe6d4801e8df4d7ef1c022f20bf559/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/954d16ccfc7d71e7914624c2f022352c/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/t-watanabe/.gradle/caches/transforms-3/0a72f4bd0d091dd26e5f30d22f828114/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/230d1a0b330d9d486c79cd6a85b752ea/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/b50ffc9a7f8a4be21d7060097246f194/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/5e3875e801df30170828f73a667271af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8cc3f3fc30ea1172da48430fb0cc63e8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/62da5f8324cfb9747733fc4f0ddd913e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/3bcc0b0dfe006409afe9296bf2794e58/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/12524e938078db51898579989881f19b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/fa54066ba03fcfdf709eb26efef720f8/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/26d5d6b71dca56dac6e0c0aa3f8ea7d5/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/c463893f011d6daebd7db103d3a37569/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/279b4958a3d6f9f6d07179a5a706eb66/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/9e2d9b6e6e07a88e7a924a5118153340/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/b10057236370989cf00f3d863129015e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/25430b95822c5d9640cc4a38d87671bd/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:3:5-72
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:12:5-67
+MERGED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:18:5-67
+MERGED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:18:5-67
+MERGED from [com.google.android.gms:play-services-pal:20.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/a60d4f030f99ac485eba5fa12a3a1392/transformed/jetified-play-services-pal-20.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-pal:20.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/a60d4f030f99ac485eba5fa12a3a1392/transformed/jetified-play-services-pal-20.0.1/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:8:5-23:19
+MERGED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:15:5-58
+MERGED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:15:5-58
+MERGED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:26:5-32:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/t-watanabe/.gradle/caches/transforms-3/96cbc03815d7a18b5f41fb65c145d5ae/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/t-watanabe/.gradle/caches/transforms-3/96cbc03815d7a18b5f41fb65c145d5ae/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/789e88d0b2fc31d6ad6bc4c2d22aa19b/transformed/jetified-play-services-appset-16.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/789e88d0b2fc31d6ad6bc4c2d22aa19b/transformed/jetified-play-services-appset-16.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/f04e9a756d614c67f30a13459d6a7877/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/f04e9a756d614c67f30a13459d6a7877/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/b1d265b20c3014cd242bd8b2870482a9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/b1d265b20c3014cd242bd8b2870482a9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/1b1d91c66b34ca7e20c2920fa6e80e65/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/1b1d91c66b34ca7e20c2920fa6e80e65/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/bd7b7186f06ea8a2c99f4e8841459bee/transformed/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/bd7b7186f06ea8a2c99f4e8841459bee/transformed/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/5e3875e801df30170828f73a667271af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/5e3875e801df30170828f73a667271af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8cc3f3fc30ea1172da48430fb0cc63e8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8cc3f3fc30ea1172da48430fb0cc63e8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/c463893f011d6daebd7db103d3a37569/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/c463893f011d6daebd7db103d3a37569/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:15:18-55
+	android:icon
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:10:9-45
+	android:allowBackup
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:9:9-35
+	android:taskAffinity
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:12:9-32
+activity#com.google.ads.interactivemedia.v3.samples.videoplayerapp.MyActivity
+ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:13:9-22:20
+	android:exported
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:16:13-36
+	android:configChanges
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:15:13-122
+	android:theme
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:17:13-57
+	android:name
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:14:13-39
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/32ce88abb1d847ffd639037b5ee7a807/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/32ce88abb1d847ffd639037b5ee7a807/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:8:5-10:61
+MERGED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:8:5-10:61
+MERGED from [androidx.preference:preference:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8c8dd16aa9120a2b9b968f719121f67a/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8c8dd16aa9120a2b9b968f719121f67a/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/t-watanabe/.gradle/caches/transforms-3/96cbc03815d7a18b5f41fb65c145d5ae/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/t-watanabe/.gradle/caches/transforms-3/96cbc03815d7a18b5f41fb65c145d5ae/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/8b6de390fc4f90a4b07dddbeeaebe4a0/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/8b6de390fc4f90a4b07dddbeeaebe4a0/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] /Users/t-watanabe/.gradle/caches/transforms-3/4c356a9445c74644f58e041739aad49e/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] /Users/t-watanabe/.gradle/caches/transforms-3/4c356a9445c74644f58e041739aad49e/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.6.0] /Users/t-watanabe/.gradle/caches/transforms-3/11691bb055f23b03c84ff576d84e6857/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /Users/t-watanabe/.gradle/caches/transforms-3/11691bb055f23b03c84ff576d84e6857/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-pal:20.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/a60d4f030f99ac485eba5fa12a3a1392/transformed/jetified-play-services-pal-20.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-pal:20.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/a60d4f030f99ac485eba5fa12a3a1392/transformed/jetified-play-services-pal-20.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/789e88d0b2fc31d6ad6bc4c2d22aa19b/transformed/jetified-play-services-appset-16.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/789e88d0b2fc31d6ad6bc4c2d22aa19b/transformed/jetified-play-services-appset-16.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/f04e9a756d614c67f30a13459d6a7877/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/f04e9a756d614c67f30a13459d6a7877/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/b1d265b20c3014cd242bd8b2870482a9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/t-watanabe/.gradle/caches/transforms-3/b1d265b20c3014cd242bd8b2870482a9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/1b1d91c66b34ca7e20c2920fa6e80e65/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/1b1d91c66b34ca7e20c2920fa6e80e65/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/bd7b7186f06ea8a2c99f4e8841459bee/transformed/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/bd7b7186f06ea8a2c99f4e8841459bee/transformed/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/t-watanabe/.gradle/caches/transforms-3/c0551e3abe4d8b1c35b397bef5eeae5c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/t-watanabe/.gradle/caches/transforms-3/c0551e3abe4d8b1c35b397bef5eeae5c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/t-watanabe/.gradle/caches/transforms-3/e4ac8e8036a4f54b9be624261312cae7/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/t-watanabe/.gradle/caches/transforms-3/e4ac8e8036a4f54b9be624261312cae7/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/9af030ca2f235ef2b96b4bb000934271/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/9af030ca2f235ef2b96b4bb000934271/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/5104a76c9086d4db368c4511d62ccad2/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/5104a76c9086d4db368c4511d62ccad2/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/feaa3b3e01721703da3adfe035f88877/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/feaa3b3e01721703da3adfe035f88877/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/4d5f64200f4df8485d4128b58b7cb962/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/4d5f64200f4df8485d4128b58b7cb962/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/5d456df6fe33ef0e65a2ebdf9fc2b06d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/5d456df6fe33ef0e65a2ebdf9fc2b06d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/a279fefa293fae8c3b3c5fed2d0c7f19/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/a279fefa293fae8c3b3c5fed2d0c7f19/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/46b7c35ab6e237dc3c3160d5cc0ee740/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/46b7c35ab6e237dc3c3160d5cc0ee740/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/e45c5fa02180a0a0d2e60ad9e43a634b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/e45c5fa02180a0a0d2e60ad9e43a634b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/5b718a55d1fd068ede03cddad4ea3861/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/5b718a55d1fd068ede03cddad4ea3861/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.webkit:webkit:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/e8378cf9c11c892aaafff737b5f761c0/transformed/webkit-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.6.1] /Users/t-watanabe/.gradle/caches/transforms-3/e8378cf9c11c892aaafff737b5f761c0/transformed/webkit-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/40bdd3350146ccd8ae70ccc172509fee/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/40bdd3350146ccd8ae70ccc172509fee/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/2987f4695064c5f4eef0bb980197dd02/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/2987f4695064c5f4eef0bb980197dd02/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/43ac619021b427fc523c6a011703dffb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/43ac619021b427fc523c6a011703dffb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/a56604325ad9281454c794ee05ab0acf/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/a56604325ad9281454c794ee05ab0acf/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/e6c086f9e78080255e016a56b65e33ac/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/e6c086f9e78080255e016a56b65e33ac/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/f5da7ff9e9a8cfa2466bdaf1128d2c74/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/f5da7ff9e9a8cfa2466bdaf1128d2c74/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/076bedf7294c4166a7fca4347426d3c5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/076bedf7294c4166a7fca4347426d3c5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/9ebe6d4801e8df4d7ef1c022f20bf559/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/9ebe6d4801e8df4d7ef1c022f20bf559/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/954d16ccfc7d71e7914624c2f022352c/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/954d16ccfc7d71e7914624c2f022352c/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/t-watanabe/.gradle/caches/transforms-3/0a72f4bd0d091dd26e5f30d22f828114/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/t-watanabe/.gradle/caches/transforms-3/0a72f4bd0d091dd26e5f30d22f828114/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/230d1a0b330d9d486c79cd6a85b752ea/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/230d1a0b330d9d486c79cd6a85b752ea/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/b50ffc9a7f8a4be21d7060097246f194/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/b50ffc9a7f8a4be21d7060097246f194/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/5e3875e801df30170828f73a667271af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/5e3875e801df30170828f73a667271af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8cc3f3fc30ea1172da48430fb0cc63e8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8cc3f3fc30ea1172da48430fb0cc63e8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/62da5f8324cfb9747733fc4f0ddd913e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/62da5f8324cfb9747733fc4f0ddd913e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/3bcc0b0dfe006409afe9296bf2794e58/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/3bcc0b0dfe006409afe9296bf2794e58/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/12524e938078db51898579989881f19b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/t-watanabe/.gradle/caches/transforms-3/12524e938078db51898579989881f19b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/fa54066ba03fcfdf709eb26efef720f8/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/fa54066ba03fcfdf709eb26efef720f8/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/26d5d6b71dca56dac6e0c0aa3f8ea7d5/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/26d5d6b71dca56dac6e0c0aa3f8ea7d5/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/c463893f011d6daebd7db103d3a37569/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/t-watanabe/.gradle/caches/transforms-3/c463893f011d6daebd7db103d3a37569/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/279b4958a3d6f9f6d07179a5a706eb66/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/279b4958a3d6f9f6d07179a5a706eb66/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/9e2d9b6e6e07a88e7a924a5118153340/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/9e2d9b6e6e07a88e7a924a5118153340/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/b10057236370989cf00f3d863129015e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/b10057236370989cf00f3d863129015e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/25430b95822c5d9640cc4a38d87671bd/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/t-watanabe/.gradle/caches/transforms-3/25430b95822c5d9640cc4a38d87671bd/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:10:9-58
+	android:targetSdkVersion
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/t-watanabe/practice/googleads-ima-android/basicexample/app/src/main/AndroidManifest.xml
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-pal:20.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/a60d4f030f99ac485eba5fa12a3a1392/transformed/jetified-play-services-pal-20.0.1/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-pal:20.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/a60d4f030f99ac485eba5fa12a3a1392/transformed/jetified-play-services-pal-20.0.1/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/f04e9a756d614c67f30a13459d6a7877/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/t-watanabe/.gradle/caches/transforms-3/f04e9a756d614c67f30a13459d6a7877/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.ads.interactivemedia.v3:interactivemedia:3.30.1] /Users/t-watanabe/.gradle/caches/transforms-3/de6236f711da5881316591f2ffc58672/transformed/jetified-interactivemedia-3.30.1/AndroidManifest.xml:13:22-76
+uses-feature#android.software.leanback
+ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:12:9-49
+uses-feature#android.hardware.touchscreen
+ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:15:9-52
+queries
+ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:20:5-24:15
+package#com.google.android.apps.tv.launcherx
+ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:21:9-72
+	android:name
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:21:18-69
+package#com.google.android.tvlauncher
+ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:22:9-65
+	android:name
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:22:18-62
+package#com.google.android.tvrecommendations
+ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:23:9-72
+	android:name
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:23:18-69
+activity#com.google.android.tv.ads.controls.FallbackImageActivity
+ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:27:9-31:20
+	android:exported
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:30:13-75
+	android:name
+		ADDED from [com.google.android.tv:tv-ads:1.0.0-alpha02] /Users/t-watanabe/.gradle/caches/transforms-3/894a8a619cc079b6cae215d8bac2ac86/transformed/jetified-tv-ads-1.0.0-alpha02/AndroidManifest.xml:28:13-84
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/a5b06be1b57be92d237b742bdddfe69d/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/1b1d91c66b34ca7e20c2920fa6e80e65/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/1b1d91c66b34ca7e20c2920fa6e80e65/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/t-watanabe/.gradle/caches/transforms-3/1b1d91c66b34ca7e20c2920fa6e80e65/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8cc3f3fc30ea1172da48430fb0cc63e8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/t-watanabe/.gradle/caches/transforms-3/8cc3f3fc30ea1172da48430fb0cc63e8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/t-watanabe/.gradle/caches/transforms-3/222af38122329270bcae16f8dcb7e34a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.google.ads.interactivemedia.v3.samples.videoplayerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.google.ads.interactivemedia.v3.samples.videoplayerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/t-watanabe/.gradle/caches/transforms-3/1f35b3e42ffd9f42c853ce668dcc28c7/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/t-watanabe/.gradle/caches/transforms-3/0c31cc8b08fa6feedae5d8f84d126ae9/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

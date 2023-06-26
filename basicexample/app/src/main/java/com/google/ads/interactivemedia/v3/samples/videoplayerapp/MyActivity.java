@@ -34,6 +34,8 @@ public class MyActivity extends AppCompatActivity {
   /**
    * IMA sample tag for a single skippable inline video ad. See more IMA sample tags at
    * https://developers.google.com/interactive-media-ads/docs/sdks/html5/client-side/tags
+   *
+   * 広告を切り替えるとスキップできなくなるのでvast側で制御しているっぽい
    */
   private static final String SAMPLE_VAST_TAG_URL =
       "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/"
