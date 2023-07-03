@@ -35,7 +35,7 @@ public class MyActivity extends AppCompatActivity {
    * IMA sample tag for a single skippable inline video ad. See more IMA sample tags at
    * https://developers.google.com/interactive-media-ads/docs/sdks/html5/client-side/tags
    *
-   * 広告を切り替えるとスキップできなくなるのでvast側で制御しているっぽい
+   * 下のタグを書き換えるとスキップできなくなるのでvast側で制御しているっぽい
    */
   private static final String SAMPLE_VAST_TAG_URL =
       "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/"
@@ -65,19 +65,26 @@ public class MyActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    // 親のメソッド
+    // activityだとこれが使えるのか。
+    // Fragmentだとこのメソッドは無く、inflateするいつものやつを使う
     setContentView(R.layout.activity_my);
 
     // Create the UI for controlling the video view.
     mediaController = new MediaController(this);
+
+    // これもactivityだと使える表現方法
     videoPlayer = findViewById(R.id.videoView);
     mediaController.setAnchorView(videoPlayer);
     videoPlayer.setMediaController(mediaController);
 
     // Create an ad display container that uses a ViewGroup to listen to taps.
+    // ↓実体は、RelativeLayout
     ViewGroup videoPlayerContainer = findViewById(R.id.videoPlayerContainer);
     AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
     videoAdPlayerAdapter = new VideoAdPlayerAdapter(videoPlayer, audioManager);
 
+    // なんのsdkか分かりづらい変数名ではある
     sdkFactory = ImaSdkFactory.getInstance();
 
     AdDisplayContainer adDisplayContainer =
@@ -98,87 +105,84 @@ public class MyActivity extends AppCompatActivity {
           }
         });
     adsLoader.addAdsLoadedListener(
-        new AdsLoader.AdsLoadedListener() {
-          @Override
-          public void onAdsManagerLoaded(AdsManagerLoadedEvent adsManagerLoadedEvent) {
-            // Ads were successfully loaded, so get the AdsManager instance. AdsManager has
-            // events for ad playback and errors.
-            adsManager = adsManagerLoadedEvent.getAdsManager();
+            adsManagerLoadedEvent -> {
+              // Ads were successfully loaded, so get the AdsManager instance. AdsManager has
+              // events for ad playback and errors.
+              adsManager = adsManagerLoadedEvent.getAdsManager();
 
-            // Attach event and error event listeners.
-            adsManager.addAdErrorListener(
-                new AdErrorEvent.AdErrorListener() {
-                  /** An event raised when there is an error loading or playing ads. */
-                  @Override
-                  public void onAdError(AdErrorEvent adErrorEvent) {
-                    Log.e(LOGTAG, "Ad Error: " + adErrorEvent.getError().getMessage());
-                    String universalAdIds =
-                        Arrays.toString(adsManager.getCurrentAd().getUniversalAdIds());
-                    Log.i(
-                        LOGTAG,
-                        "Discarding the current ad break with universal "
-                            + "ad Ids: "
-                            + universalAdIds);
-                    adsManager.discardAdBreak();
-                  }
-                });
-            adsManager.addAdEventListener(
-                new AdEvent.AdEventListener() {
-                  /** Responds to AdEvents. */
-                  @Override
-                  public void onAdEvent(AdEvent adEvent) {
-                    if (adEvent.getType() != AdEvent.AdEventType.AD_PROGRESS) {
-                      Log.i(LOGTAG, "Event: " + adEvent.getType());
+              // Attach event and error event listeners.
+              adsManager.addAdErrorListener(
+                  new AdErrorEvent.AdErrorListener() {
+                    /** An event raised when there is an error loading or playing ads. */
+                    @Override
+                    public void onAdError(AdErrorEvent adErrorEvent) {
+                      Log.e(LOGTAG, "Ad Error: " + adErrorEvent.getError().getMessage());
+                      String universalAdIds =
+                          Arrays.toString(adsManager.getCurrentAd().getUniversalAdIds());
+                      Log.i(
+                          LOGTAG,
+                          "Discarding the current ad break with universal "
+                              + "ad Ids: "
+                              + universalAdIds);
+                      adsManager.discardAdBreak();
                     }
-                    // These are the suggested event types to handle. For full list of
-                    // all ad event types, see AdEvent.AdEventType documentation.
-                    switch (adEvent.getType()) {
-                      case LOADED:
-                        // AdEventType.LOADED is fired when ads are ready to play.
+                  });
+              adsManager.addAdEventListener(
+                  new AdEvent.AdEventListener() {
+                    /** Responds to AdEvents. */
+                    @Override
+                    public void onAdEvent(AdEvent adEvent) {
+                      if (adEvent.getType() != AdEvent.AdEventType.AD_PROGRESS) {
+                        Log.i(LOGTAG, "Event: " + adEvent.getType());
+                      }
+                      // These are the suggested event types to handle. For full list of
+                      // all ad event types, see AdEvent.AdEventType documentation.
+                      switch (adEvent.getType()) {
+                        case LOADED:
+                          // AdEventType.LOADED is fired when ads are ready to play.
 
-                        // This sample app uses the sample tag
-                        // single_preroll_skippable_ad_tag_url that requires calling
-                        // AdsManager.start() to start ad playback.
-                        // If you use a different ad tag URL that returns a VMAP or
-                        // an ad rules playlist, the adsManager.init() function will
-                        // trigger ad playback automatically and the IMA SDK will
-                        // ignore the adsManager.start().
-                        // It is safe to always call adsManager.start() in the
-                        // LOADED event.
-                        adsManager.start();
-                        break;
-                      case CONTENT_PAUSE_REQUESTED:
-                        // AdEventType.CONTENT_PAUSE_REQUESTED is fired when you
-                        // should pause your content and start playing an ad.
-                        pauseContentForAds();
-                        break;
-                      case CONTENT_RESUME_REQUESTED:
-                        // AdEventType.CONTENT_RESUME_REQUESTED is fired when the ad
-                        // you should play your content.
-                        resumeContent();
-                        break;
-                      case ALL_ADS_COMPLETED:
-                        // Calling adsManager.destroy() triggers the function
-                        // VideoAdPlayer.release().
-                        adsManager.destroy();
-                        adsManager = null;
-                        break;
-                      case CLICKED:
-                        // When the user clicks on the Learn More button, the IMA SDK fires
-                        // this event, pauses the ad, and opens the ad's click-through URL.
-                        // When the user returns to the app, the IMA SDK calls the
-                        // VideoAdPlayer.playAd() function automatically.
-                        break;
-                      default:
-                        break;
+                          // This sample app uses the sample tag
+                          // single_preroll_skippable_ad_tag_url that requires calling
+                          // AdsManager.start() to start ad playback.
+                          // If you use a different ad tag URL that returns a VMAP or
+                          // an ad rules playlist, the adsManager.init() function will
+                          // trigger ad playback automatically and the IMA SDK will
+                          // ignore the adsManager.start().
+                          // It is safe to always call adsManager.start() in the
+                          // LOADED event.
+                          adsManager.start();
+                          break;
+                        case CONTENT_PAUSE_REQUESTED:
+                          // AdEventType.CONTENT_PAUSE_REQUESTED is fired when you
+                          // should pause your content and start playing an ad.
+                          pauseContentForAds();
+                          break;
+                        case CONTENT_RESUME_REQUESTED:
+                          // AdEventType.CONTENT_RESUME_REQUESTED is fired when the ad
+                          // you should play your content.
+                          resumeContent();
+                          break;
+                        case ALL_ADS_COMPLETED:
+                          // Calling adsManager.destroy() triggers the function
+                          // VideoAdPlayer.release().
+                          adsManager.destroy();
+                          adsManager = null;
+                          break;
+                        case CLICKED:
+                          // When the user clicks on the Learn More button, the IMA SDK fires
+                          // this event, pauses the ad, and opens the ad's click-through URL.
+                          // When the user returns to the app, the IMA SDK calls the
+                          // VideoAdPlayer.playAd() function automatically.
+                          break;
+                        default:
+                          break;
+                      }
                     }
-                  }
-                });
-            AdsRenderingSettings adsRenderingSettings =
-                ImaSdkFactory.getInstance().createAdsRenderingSettings();
-            adsManager.init(adsRenderingSettings);
-          }
-        });
+                  });
+              AdsRenderingSettings adsRenderingSettings =
+                  ImaSdkFactory.getInstance().createAdsRenderingSettings();
+              adsManager.init(adsRenderingSettings);
+            });
 
     // When the play button is clicked, request ads and hide the button.
     playButton = findViewById(R.id.playButton);
