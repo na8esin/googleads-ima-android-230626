@@ -16,6 +16,7 @@ import com.google.android.exoplayer2.source.MediaSource;
 import com.google.android.exoplayer2.ui.StyledPlayerView;
 import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultDataSource;
+import com.google.android.exoplayer2.util.MimeTypes;
 import com.google.android.exoplayer2.util.Util;
 
 /** Main Activity. */
@@ -23,6 +24,8 @@ public class MyActivity extends Activity {
 
   private static final String SAMPLE_VIDEO_URL =
       "https://storage.googleapis.com/gvabox/media/samples/stock.mp4";
+  private static final String SAMPLE_HLS_URL =
+      "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8";
   private static final String SAMPLE_VAST_TAG_URL =
       "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/"
           + "single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90"
@@ -141,11 +144,12 @@ public class MyActivity extends Activity {
     adsLoader.setPlayer(player);
 
     // Create the MediaItem to play, specifying the content URI and ad tag URI.
-    Uri contentUri = Uri.parse(SAMPLE_VIDEO_URL);
+    Uri contentUri = Uri.parse(SAMPLE_HLS_URL);
     Uri adTagUri = Uri.parse(SAMPLE_VAST_TAG_URL);
     MediaItem mediaItem =
         new MediaItem.Builder()
             .setUri(contentUri)
+            .setMimeType(MimeTypes.APPLICATION_M3U8)
             .setAdsConfiguration(new MediaItem.AdsConfiguration.Builder(adTagUri).build())
             .build();
 
@@ -154,6 +158,6 @@ public class MyActivity extends Activity {
     player.prepare();
 
     // Set PlayWhenReady. If true, content and ads will autoplay.
-    player.setPlayWhenReady(false);
+    player.setPlayWhenReady(true);
   }
 }

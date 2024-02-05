@@ -43,9 +43,7 @@ public class MyActivity extends AppCompatActivity {
      * 下のタグを書き換えるとスキップできなくなるのでvast側で制御しているっぽい
      */
     private static final String SAMPLE_VAST_TAG_URL =
-            "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/"
-                    + "single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast"
-                    + "&unviewed_position_start=1&env=vp&impl=s&correlator=";
+            "https://pubads.g.doubleclick.net/gampad/live/ads?iu=/29520438/adxtest&description_url=http%3A%2F%2Fmcas.jp&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=640x480&unviewed_position_start=1&cust_params=device%3D0003%26channel%3Dchannels0_programs0_movies0%26program%3D0%26timestamp%3D80016815%26video_type%3Dlive";
 
     // Factory class for creating SDK objects.
     private ImaSdkFactory sdkFactory;

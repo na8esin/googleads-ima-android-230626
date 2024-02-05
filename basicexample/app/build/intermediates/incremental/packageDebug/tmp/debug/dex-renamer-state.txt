@@ -1,4 +1,4 @@
-#Mon Jun 26 14:14:01 JST 2023
+#Thu Aug 17 08:59:20 JST 2023
 base.0=/Users/t-watanabe/practice/googleads-ima-android/basicexample/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/t-watanabe/practice/googleads-ima-android/basicexample/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/t-watanabe/practice/googleads-ima-android/basicexample/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex

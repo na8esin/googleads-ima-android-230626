@@ -33,9 +33,11 @@ repositories {
 
 dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'com.google.android.exoplayer:exoplayer-core:2.18.5'
-    implementation 'com.google.android.exoplayer:exoplayer-ui:2.18.5'
+    var exoplayer = '2.18.5'
+    implementation "com.google.android.exoplayer:exoplayer-core:$exoplayer"
+    implementation "com.google.android.exoplayer:exoplayer-ui:$exoplayer"
+    implementation "com.google.android.exoplayer:exoplayer-hls:$exoplayer"
 
     // The library adds the IMA ExoPlayer integration for ads.
-    implementation 'com.google.android.exoplayer:extension-ima:2.18.5'
+    implementation "com.google.android.exoplayer:extension-ima:$exoplayer"
 }
